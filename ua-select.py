@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 
 # https://github.com/Kikobeats/top-user-agents/blob/master/index.json
