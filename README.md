@@ -9,6 +9,9 @@ To evade Defense solutions we're not accessing AmsiScanBuffer directly, but inst
 You can calculate the offset using DLL Export Viewer and opening amsi.dll, as shown in the image below:
 ![image](https://user-images.githubusercontent.com/49280556/130318160-fad781bd-3a0f-4a6f-bc2e-d7e850637c12.png)
 
+PoC (click to enlarge):
+
+<img src="https://user-images.githubusercontent.com/49280556/130318266-4b08c4a6-e22e-46db-bc81-eefd35c1d5ed.png" width="700">
 
 ```powershell
 . .\amsi-bypass.ps1
