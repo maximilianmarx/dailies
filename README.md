@@ -1,6 +1,17 @@
 # dailies
 Repository containing useful scripts for daily usage saving some time.
 
+## Find-WinAPIFunction.ps1
+Script written by Matt Graeber (haven't found it on his GitHub).
+The script searches the loaded modules in a Windows PowerShell session for a reference to a private Windows API function.
+
+```powershell
+.\Find-WinAPIFunction.ps1 -Module kernel32 -FunctionName CopyFile
+```
+
+<img src="https://user-images.githubusercontent.com/49280556/133893874-8f67659d-d2b1-427d-8b01-f87fc1957a32.png" width="400">
+
+
 ## amsi-bypass.ps1
 This script is able to bypass AMSI (Anti Malware Scan Interface) on a recent Windows 10 installation (20.08.2021).
 It was influenced by Rasta-Mouse's C# implementation https://github.com/rasta-mouse/AmsiScanBufferBypass/blob/main/AmsiBypass.cs.
