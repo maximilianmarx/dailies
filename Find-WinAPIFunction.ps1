@@ -1,7 +1,7 @@
 function Find-WinAPIFunction
 
 {
-
+  # Author: Matt Graeber (src: https://devblogs.microsoft.com/scripting/use-powershell-to-interact-with-the-windows-api-part-2/)
   <#
   .SYNOPSIS
       Searches all loaded assemblies in your PowerShell session for a
