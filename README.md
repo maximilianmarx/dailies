@@ -4,7 +4,7 @@ Repository containing useful scripts for daily usage saving some time.
 ## AuthenticatedSMB.ps1
 Hosting a SMB server through e.g. Kali provides an easy way of access from Windows machines.
 Because of security measurements Windows might disallow unauthenticated access to SMB shares.
-Therefor you need credentials to access it.
+Therefore you need credentials to access it.
 
 Start a SMB server on Kali using credentials:
 ```bash
